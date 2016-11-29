@@ -20,7 +20,7 @@ a = a * 2;
 "I am also a string";
 // Showing examples of strings
 
-42/* literal expression */;
+42;/* literal expression */
 // Showing a example about literal expressions
 
 true;
