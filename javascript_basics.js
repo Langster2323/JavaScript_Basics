@@ -25,7 +25,7 @@ a = a * 2;
 
 true;
 false;
-//Showing examples sdfof booleans
+//Showing examples of booleans
 
 var a = "42";
 var b = Number(a);
