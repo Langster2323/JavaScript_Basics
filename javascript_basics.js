@@ -132,3 +132,40 @@ for (var i = 0; i <= 9; i = i + 1) {
   console.log(i);
 }
 // 0 1 2 3 4 5 6 7 8 9
+
+/* A function is generally a named section
+of code that can be "called" by name, and
+the code inside it will be run each time.
+Consider: */
+
+function printAmount() {
+  console.log( amount.toFixed(2));
+}
+
+var amount = 99.99;
+
+printAmount(); //"99.99"
+
+amount = amount * 2;
+
+printAmount(); //"199.98"
+
+/* Functions can optionally take arguments
+(aka parameters) --values you pass in.
+And they can also optionally return a
+value back. */
+function printAmount(amt) /* takes a parameter that
+we call amt */{
+  console.log(amt.toFixed(2));
+}
+
+function formatAmount()/* returns a value */ {
+  return "$" + amount.toFixed( 2 );
+}
+
+var amount = 99.99;
+
+printAmount(amount * 2); //"199.98"
+
+amount = formatAmount();
+console.log(amount); //"$99.99"
