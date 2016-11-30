@@ -106,3 +106,22 @@ if (amount < bank_balance) {
 else {
   console.log("No, thanks.");
 }
+
+// Each time the loop block executes,  it's called an iterarion
+while (numOfCustomers > 0) {
+  console.log("How may I help you?");
+
+  //help the customer...
+
+  numOfCustomers = numOfCustomers - 1;
+}
+
+//versus:
+
+do {
+  console.log("How may I help you?" );
+
+  //help the customer...
+
+  numOfCustomers = numOfCustomers - 1;
+} while (numOfCustomers > 0);
