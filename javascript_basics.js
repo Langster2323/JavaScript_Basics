@@ -185,3 +185,19 @@ var amount = 99.99;
 amount = calculateFinalPurchaseAmount(amount);
 
 console.log(amount.toFixed(2)); // "107.99"
+
+//Scope
+
+function one() {
+  // this 'a' only belongs to the 'one()' function
+  var a = 1;
+  console.log(a);
+}
+
+function two() {
+  var a = 2;
+  console.log(a);
+}
+
+one(); //1
+two(); //2
