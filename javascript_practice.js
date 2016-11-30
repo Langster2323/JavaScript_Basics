@@ -17,7 +17,7 @@ function printAmount() {
 
 var amount = 99.99;
 
-printAmount(); 
+printAmount();
 
 amount = amount * 2;
 
@@ -25,4 +25,4 @@ printAmount();
 var amount = 99.99;
 
 amount = calculateFinalPurchaseAmount(amount);
-console.log(amount.toFixed(2));
+console.log(amount.toFixed(2)); // final result
