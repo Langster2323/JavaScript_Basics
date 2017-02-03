@@ -1,0 +1,6 @@
+/* A JavaScript statement*/
+alert("Hello from, Ahkeem!");
+//Document represents the current webpage...
+//Write is a command that writes a message to the page...
+document.write("<h1>Welcome to Javascript Basics</h1>");
+alert("Thanks for visiting");
