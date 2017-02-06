@@ -1,9 +1,11 @@
 /* A JavaScript statement*/
 //This will execute on the screen...
-alert("Hello from, Ahkeem!");
+var greetings = "Hello! I'm Ahkeem!";
+var farewell = "Bye!";
+alert(greetings);
 //Document represents the current webpage...
 //Write is a command that writes a message to the page...
 document.write("<h1>Welcome to Javascript Basics</h1>");
-alert("Thanks for visiting");
+alert(farewell);
 //outputs messages to the console...
 console.log("Program complete");
