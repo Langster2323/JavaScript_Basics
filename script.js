@@ -14,3 +14,11 @@ console.log(message.length);
 document.write("<h1>Welcome to Javascript Basics</h1>");
 //outputs messages to the console...
 console.log("Program complete, you're reviewing a lot!");
+
+/**** Numbers ****/
+
+var secondsPerMin = 60;
+var minsPerHour = 60;
+var hoursPerDay = 24;
+var daysPerWeek = 7;
+var weeksPerYear = 52;
