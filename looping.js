@@ -1,3 +1,6 @@
 
-for (var symbol = "#"; symbol <= 7; symbol += 1) 
+for (var triangle = 0; triangle += 1; var symbol = "#"){
+  if (triangle <= 7)
+  break
+}
 console.log(symbol);
