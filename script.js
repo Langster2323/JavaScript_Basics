@@ -26,3 +26,8 @@ var secondsPerDay = secondsPerMin * minsPerHour * hoursPerDay;
 document.write('There are ' + secondsPerDay + ' seconds in a day');
 var yearsAlive = secondsPerDay * minsPerHour * hoursPerDay * daysPerWeek *
 weeksPerYear;
+
+var HTMLBadges = prompt('How many HTML badges do you have?');
+var CSSBadges = prompt ('How many CSS badges do you have?');
+var totalBadges = parseInt(HTMLBadges) + parseInt(CSSBadges);
+alert('Wow! You have ' + totalBadges + ' badges!');
