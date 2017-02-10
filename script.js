@@ -24,7 +24,7 @@ var daysPerWeek = 7;
 var weeksPerYear = 52;
 var secondsPerDay = secondsPerMin * minsPerHour * hoursPerDay;
 document.write('There are ' + secondsPerDay + ' seconds in a day');
-var yearsAlive = secondsPerDay * minsPerHour * hoursPerDay * daysPerWeek *
+var yearsAlive = secondsPerMin * minsPerHour * hoursPerDay * daysPerWeek *
 weeksPerYear;
 
 var HTMLBadges = prompt('How many HTML badges do you have?');
