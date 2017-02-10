@@ -1,3 +1,3 @@
-var choosenNumber = prompt("Please pick a number! ")
-Math.floor(Math.random() * choosenNumber) + 1;
-alert("Your number is " + parseInt(choosenNumber));
+var input = prompt("Please pick a number! ");
+var topNumber = parseInt(input);
+Math.floor(Math.random() * topNumber) + 1;
