@@ -1,6 +1,7 @@
-var input = prompt("Please pick a number! ");
+var input1 = prompt("Please type a starting number");
+var bottomNumber = parseInt(input1);
+var input = prompt("Please pick a number!");
 var topNumber = parseInt(input);
-var randomNumber = Math.floor(Math.random() * topNumber) + 1;
-var message = "<p>" + randomNumber + " is a number between 1 and " +
-topNumber + "</p>"
+var randomNumber = Math.floor(Math.random() * (topNumber - bottomNumber + 1)) + bottomNumber;
+var message = "<p>" + randomNumber + " is a number between " + bottomNumber + " and "+ topNumber + ".</p>";
 document.write(message);
