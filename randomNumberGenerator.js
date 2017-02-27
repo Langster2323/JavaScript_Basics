@@ -5,7 +5,7 @@ if (parseInt(guess) === randomNumber ) {
   correctGuess = true;
 }
 
-if (correctGuess===true) {
+if (correctGuess) {
   document.write('<p>You guessed the number!</p>');
 } else {
   document.write('<p>Sorry. THe number was ' + randomNumber + '.</p>');
