@@ -1,8 +1,8 @@
-function alertRandom() {
-  let randomNumber = Math.floor(Math.random() * 6 ) + 1;
-  alert(randomNumber);
+function getRandomNumber() {
+  var randomNumber = Math.floor( Math.random() * 6 ) + 1;
+  return randomNumber;
 }
-alertRandom();
-alertRandom();
-alertRandom();
-alertRandom();
+//Examples of returning a value...
+alert(getRandomNumber());
+console.log(getRandomNumber());
+var dieRoll = getRandomNumber();
