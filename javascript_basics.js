@@ -44,7 +44,7 @@ var amount = 99.99;
 
 // a general block
 {
-  amount = amount * 2;
+  amount *= 2;
   console.log(amount); //199.98
 
 
@@ -62,7 +62,7 @@ as an example in a assignment expression */= 0.08; // 8% sales tax
 
 var amount = 99.99;
 
-amount = amount * 2;
+amount *= 2;
 
 amount = amount + (amount * TAX_RATE);
 
@@ -75,7 +75,7 @@ and produces the string as necessary. */
 var amount = 99.99;
 // is amount big enough?
 if (amount > 10) {      // <-- black attached to 'if'
-  amount = amount * 2;
+  amount *= 2;
   console.log(amount);  /*statement passes only if,
   if statement is true*/
 } /* A block statement doesn't need
@@ -95,7 +95,7 @@ const ACCESSORY_PRICE = 9.99;
 var bank_balance = 302.13;
 var amount = 99.99;
 
-amount = amount * 2;
+amount *= 2;
 
 // can we afford the extra purchase?
 if (amount < bank_balance) {
@@ -128,7 +128,7 @@ do {
 //for loop has three clauses
 /* for is more compact and often easier form
 to understand and write */
-for (var i = 0; i <= 9; i = i + 1) {
+for (var i = 0; i <= 9; i += 1) {
   console.log(i);
 }
 // 0 1 2 3 4 5 6 7 8 9
@@ -146,7 +146,7 @@ var amount = 99.99;
 
 printAmount(); //"99.99"
 
-amount = amount * 2;
+amount *= 2;
 
 printAmount(); //"199.98"
 

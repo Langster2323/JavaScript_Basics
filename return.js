@@ -8,3 +8,8 @@ function isEmailEmpty () {
     return false;
   }
 }
+
+let fieldTest = isEmailEmpty() ;
+if (fieldTest === true) {
+  alert('Please provide your email address');
+}
