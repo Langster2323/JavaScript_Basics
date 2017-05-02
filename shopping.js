@@ -3,3 +3,4 @@ var shoppingList = [
   'milk',
   'eggs'
 ];
+console.log(shoppingList[0])
