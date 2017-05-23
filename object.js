@@ -22,6 +22,7 @@ message += '<p>I have ' + person.skills.length + ' skills: ';
 message += person.skills.join(', ') + '</p>';
 print(message);
 
+//for in loop...
 for (prop in person) {
   console.log(prop, ': ', person[prop]);
 }
