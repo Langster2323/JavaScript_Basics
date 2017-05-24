@@ -42,8 +42,8 @@ function buildList(arr) {
 }
 
 for (var i = 0; i < questions.length; i += 1) {
-  question = questions[i][0];
-  answer = questions[i][1];
+  question = questions[i].question;
+  answer = questions[i].answer;
   response = prompt(question);
   response = parseInt(response);
   if (response === answer) {
