@@ -1,9 +1,15 @@
 var message = "";
 var student;
+//To search and find students...
+var search;
 
 function print(message) {
   var outputDiv = document.getElementById('output');
  outputDiv.innerHTML = message;
+}
+
+while () {
+
 }
 
 
