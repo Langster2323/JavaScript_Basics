@@ -10,7 +10,7 @@ function print(message) {
 
 while () {
   search = prompt('Search student records: type a name [Ahkeem] (or type "quit" to end)');
-  if (search.toLowerCase() === 'quit') {
+  if (search === null || search.toLowerCase() === 'quit') {
     break;
   }
 }
