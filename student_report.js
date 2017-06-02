@@ -9,11 +9,14 @@ function print(message) {
 }
 
 while () {
-
+  search = prompt('Search student records: type a name [Ahkeem] (or type "quit" to end)');
+  if (search.toLowerCase() === 'quit') {
+    break;
+  }
 }
 
 
-for(var i = 0; i < student.length; i += 1){
+for(var i = 0; i < students.length; i += 1){
   student = students[i];
   message += '<h2>Student:  ' + student.name + '</h2>';
   message += '<p>Track:  ' + student.track + '</p>';
